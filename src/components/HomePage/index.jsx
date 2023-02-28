@@ -11,11 +11,13 @@ const HomePage = () => {
       <HeroItem />
       <FeatureCard />
       <ProductItem />
-      <div className="w-full h-screen mx-auto container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-        porro, quisquam libero et dignissimos modi deserunt natus labore aperiam
-        odit. In atque doloribus necessitatibus velit, laboriosam modi
-        dignissimos aut similique.
+      <div className="my-24 text-center cursor-pointer">
+        <a
+          target={'_blank'}
+          href="https://www.figma.com/community/file/1206328922123569702"
+        >
+          Figma Files Documment
+        </a>
       </div>
     </>
   );
