@@ -4,13 +4,18 @@
 
 @import 'swiper/css';
 
-* > * {
+/* * > * {
   font-family: 'Work Sans ', sans-serif;
+} */
+@layer base {
+  html {
+    font-family: Work Sans, sans-serif;
+  }
 }
 
 @layer components {
   .product-item .swiper-slide {
-    @apply w-2/4 border-none rounded-3xl shadow-lg sm:w-2/5 md:w-2/6 lg:w-1/4 lg:scale-95 lg:hover:scale-100 lg:duration-300 xl:w-2/12 2xl:w-1/5;
+    @apply w-2/4 border-none rounded-3xl mb-4 shadow-lg sm:w-2/5 md:w-2/6 lg:w-1/4 lg:scale-95 lg:hover:scale-100 lg:duration-300 xl:w-2/12 2xl:w-1/5;
   }
 }
 

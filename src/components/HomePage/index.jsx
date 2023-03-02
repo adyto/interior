@@ -3,6 +3,8 @@ import Navbar from '../Navbar';
 import FeatureCard from './FeatureCard';
 import HeroItem from './HeroItem';
 import ProductItem from './ProductItem';
+import InteriorCard from './InteriorCard';
+import VisitItem from './VisitItem';
 
 const HomePage = () => {
   return (
@@ -11,6 +13,8 @@ const HomePage = () => {
       <HeroItem />
       <FeatureCard />
       <ProductItem />
+      <InteriorCard />
+      <VisitItem />
       <div className="my-24 text-center cursor-pointer">
         <a
           target={'_blank'}
