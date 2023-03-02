@@ -5,6 +5,7 @@ import HeroItem from './HeroItem';
 import ProductItem from './ProductItem';
 import InteriorCard from './InteriorCard';
 import VisitItem from './VisitItem';
+import Footer from '../Footer';
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <ProductItem />
       <InteriorCard />
       <VisitItem />
+      <Footer />
       <div className="my-24 text-center cursor-pointer">
         <a
           target={'_blank'}
@@ -22,6 +24,7 @@ const HomePage = () => {
         >
           Figma Files Documment
         </a>
+        <p>© 2023 ady.to - All rights reserved.</p>
       </div>
     </>
   );
