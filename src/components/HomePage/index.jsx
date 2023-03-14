@@ -17,7 +17,7 @@ const HomePage = () => {
       <InteriorCard />
       <VisitItem />
       <Footer />
-      <div className="my-24 text-center cursor-pointer">
+      {/* <div className="my-24 text-center cursor-pointer">
         <a
           target={'_blank'}
           href="https://www.figma.com/community/file/1206328922123569702"
@@ -25,7 +25,7 @@ const HomePage = () => {
           Figma Files Documment
         </a>
         <p>© 2023 ady.to - All rights reserved.</p>
-      </div>
+      </div> */}
     </>
   );
 };

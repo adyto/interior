@@ -30,10 +30,9 @@ const Navbar = () => {
       icon: <RiContactsFill />,
     },
   ];
-  console.log(toggle);
   return (
     <div className="relative">
-      <div className="absolute z-10 w-full pt-8 container mx-auto   max-lg:hidden">
+      <div className="absolute z-10 w-full pt-8 container mx-auto   max-md:hidden">
         <div className="flex flex-row justify-end items-center gap-32">
           <div className="flex flex-row gap-12">
             {['home', 'shop', 'about-us', 'contact'].map((item) => (
@@ -50,7 +49,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="fixed z-10 bg-slate-300/70 w-full h-14 backdrop-blur-sm border-b-[1px] border-slate-300/20 lg:hidden">
+      <div className="fixed z-10 bg-slate-300/70 w-full h-14 backdrop-blur-sm border-b-[1px] border-slate-300/20 md:hidden">
         <div className="flex flex-row justify-between h-full items-center px-4">
           <h1 className="text-text-color-palette-2 font-bold text-2xl">
             Interior
@@ -92,15 +91,6 @@ const Navbar = () => {
           ))}
         </div>
       </div>
-      {/* <div>
-        <div className="flex flex-col mt-8 gap-6">
-          {['home', 'shop', 'about-us', 'contact'].map((item) => (
-            <Link className="text-text-color-palette-2 capitalize font-semibold text-2xl">
-              {item === 'about-us' ? 'About Us' : item}
-            </Link>
-          ))}
-        </div>
-      </div> */}
     </div>
   );
 };
